@@ -15,16 +15,9 @@ else{
 
 
 // 2.
-let result;
 let a = -4;
-let b = 12;
-
-if (a + b < 4){
-    result = "Мало";
-}
-else{
-    result = "Много";
-}
+let b = 22;
+let result = a + b < 4 ? "Мало" : "Много";
 
 console.log(result);
 
@@ -86,14 +79,14 @@ console.log(sum2);
 
 
 // 8.
-let product = 1;
+let result4 = 1;
 
 for (let i = 1; i <= 60; i++){
     if (i%6 == 0){
-        product*=i;
+        result4*=i;
     }
 }
-console.log(product);
+console.log(result4);
 
 
 
